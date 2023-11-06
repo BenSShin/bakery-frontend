@@ -1,23 +1,39 @@
-#posts-index img {
-  width: 300px;
+/*  */
+body{
+  width: 100%;
 }
 #root {
-  margin: 0 0;
-  padding: 0 0;
+  padding: 0;  
 }
 html {
   scroll-behavior: smooth;
   background-color: tan;
 }
+img {
+  max-width: 300px;
+}
+
+/* Header */
 header {
   background-image: url(https://img.freepik.com/free-photo/brown-wooden-flooring_53876-90802.jpg);
   background-size: 90px 90px;
-
+  color: white;
+  font-size: 50px;
+  font-family: Brush Script MT;
 }
 header a{
   color: white;
   font-size: 50px;
+  font-family: Brush Script MT;
 }
+
+/* content */
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  
+}
+
 img {
-  max-width: 300px;
+  padding-bottom: 80px;
 }
