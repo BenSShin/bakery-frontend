@@ -1,4 +1,7 @@
 /*  */
+html {
+  text-align: center;
+}
 body{
   width: 100%;
 }
@@ -12,6 +15,19 @@ html {
 img {
   max-width: 300px;
 }
+/* Welcome */
+#welcome {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+}
+#welcome h1{
+  font-family: Brush Script MT;
+  font-size: 100px;
+}
+#welcome h1,p {
+  color: black;
+}
 
 /* Header */
 header {
@@ -23,9 +39,8 @@ header {
 }
 header a{
   color: white;
-  font-size: 50px;
-  font-family: Brush Script MT;
 }
+
 
 /* content */
 p {
