@@ -5,19 +5,19 @@ export function Content() {
   let breads = [
     {
       id: 1,
-      name: "sourdough",
+      name: "Sourdough",
       price: 6,
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0bCH3c8vFIj0K0o1ZUxexWN5_J7M9y0UHww&usqp=CAU",
     },
     {
       id: 2,
-      name: "ciabatta",
+      name: "Ciabatta",
       price: 5,
       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpleznwm_7S33BkDi3aiHTqwjCN17HmRAHPg&usqp=CAU",
     },
     {
       id: 3,
-      name: "chocolate babka",
+      name: "Chocolate Babka",
       price: 7,
       image: "https://www.dinnerwithjulie.com/wp-content/uploads/2017/06/Babka-7.jpg",
     },
@@ -40,13 +40,13 @@ export function Content() {
     },
     {
       id: 3,
-      name: "eclair",
+      name: "Eclair",
       price: 5,
       image: "https://natashaskitchen.com/wp-content/uploads/2018/10/Classic-Eclairs-Recipe-3-600x900.jpg",
     },
     {
       id: 4,
-      name: "canele",
+      name: "Canele",
       price: 4,
       image: "https://www.homecookingadventure.com/wp-content/uploads/2022/01/caneles_de_bordeaux_main.jpg",
     },

@@ -1,9 +1,8 @@
 /*  */
-html {
-  text-align: center;
-}
 body{
   width: 100%;
+  text-align: center;
+  margin: 0;
 }
 #root {
   padding: 0;  
@@ -20,6 +19,7 @@ img {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: white;
+  width: 100%;
 }
 #welcome h1{
   font-family: Brush Script MT;
@@ -32,13 +32,26 @@ img {
 /* Header */
 header {
   background-image: url(https://img.freepik.com/free-photo/brown-wooden-flooring_53876-90802.jpg);
-  background-size: 90px 90px;
   color: white;
-  font-size: 50px;
-  font-family: Brush Script MT;
+  padding-left: 30px;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: -1px;
+  text-align: left;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 header a{
   color: white;
+  display: inline-block;
+  padding: 0 15px;
+  text-decoration: none;
+}
+header a:hover {
+  background-color: white;
+  transition: .5s;
+  color: black;
 }
 
 
