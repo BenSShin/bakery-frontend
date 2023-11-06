@@ -62,6 +62,15 @@ p {
   
 }
 
+
+
 img {
   padding-bottom: 80px;
+}
+
+/* bread */
+.breadcard {
+  display: inline-block;
+  padding: 30px;
+  
 }
