@@ -1,7 +1,23 @@
 #posts-index img {
   width: 300px;
 }
-
+#root {
+  margin: 0 0;
+  padding: 0 0;
+}
 html {
   scroll-behavior: smooth;
+  background-color: tan;
+}
+header {
+  background-image: url(https://img.freepik.com/free-photo/brown-wooden-flooring_53876-90802.jpg);
+  background-size: 90px 90px;
+
+}
+header a{
+  color: white;
+  font-size: 50px;
+}
+img {
+  max-width: 300px;
 }
